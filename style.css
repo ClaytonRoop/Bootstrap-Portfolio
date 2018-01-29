@@ -1,0 +1,80 @@
+body {
+    background-image: url("images/dust_scratches.png");
+}
+
+h2 {
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    color: teal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 165%;
+}
+
+.AboutPhoto {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 2px;
+    max-width: 100%;
+    height: auto;
+    display:block;
+}
+
+.navcontainer .navbar-brand
+{
+    color: white;
+    background-color: teal;
+
+}
+
+.navbar-nav
+{
+    float:right;
+}
+
+@media (max-width: 768px) {
+.navbar-nav {
+    float: left;
+}
+}
+
+.panel {
+margin-bottom: 60px;
+}
+.portfolioimage {
+    position: relative;
+    margin: 20px;
+}
+.portfolioimage .mycaption{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    height: 20px%;
+    width: 200px;
+    background-color: teal;
+    color: white;
+    top: 140px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.navbar-inverse {
+    background-color: #777777;
+    text-align: center;
+    border-top: 4px solid teal;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* .copyright {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+} */
